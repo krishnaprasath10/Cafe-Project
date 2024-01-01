@@ -36,7 +36,7 @@ class Cart(models.Model):
 
     @property
     def total_cost(self):
-        return self.product_qty*self.product.selling_price____
+        return self.product_qty*self.product.selling_price
 
 
     
